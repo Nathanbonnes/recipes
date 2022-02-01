@@ -1,6 +1,6 @@
 import './recipe.css'
 import React from 'react';
 
-export default function recipe() {
-  return <div></div>;
+export default function Recipe() {
+  return <div>Recipe</div>;
 }

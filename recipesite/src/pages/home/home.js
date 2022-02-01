@@ -2,6 +2,6 @@ import './home.css'
 
 import React from 'react';
 
-export default function home() {
+export default function Home() {
   return <div>Home</div>;
 }
