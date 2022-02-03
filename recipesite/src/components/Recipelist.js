@@ -3,6 +3,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 export default function Recipelist({recipes}) {
+
+    if (recipes.length === 0){
+        return <div className="error">No Recipes to load...</div>
+    }
   return (
   
   <div className='recipe-list'>
@@ -17,3 +21,4 @@ export default function Recipelist({recipes}) {
       ))}
   </div>);
 }
+ 
