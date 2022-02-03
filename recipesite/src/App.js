@@ -4,14 +4,15 @@ import Home from './pages/home/Home.js'
 import Search from './pages/search/Search.js'
 import Create from './pages/create/Create.js'
 import Recipe from './pages/recipe/Recipe.js'
+import Navbar from './components/Navbar.js'
 
 function App() {
   return (
     <div className="App">
 
       <BrowserRouter>
+       <Navbar />
       <Switch>
-
         <Route exact path="/">
           <Home />
         </Route>
