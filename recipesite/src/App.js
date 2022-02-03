@@ -13,15 +13,19 @@ function App() {
       <BrowserRouter>
        <Navbar />
       <Switch>
+        
         <Route exact path="/">
           <Home />
         </Route>
+
         <Route path="/create">
           <Create />
         </Route>
+
         <Route path="/recipes/:id">
           <Recipe />
-        </Route>       
+        </Route>    
+
          <Route path="/search">
           <Search />
         </Route>
